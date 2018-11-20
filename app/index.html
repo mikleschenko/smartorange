@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="bacgr">
+    <div class="title">
+        <p class="question">Can you build the website of my dreams?</p>
+        <p class="slogan">Yup, we can do that.</p>
+
+        <button type="button" id="open-btn" class="btn">Learn More</button>
+
+        <div class="modal" id="modal">
+            <button type="button" id="close-btn" class="close-btn">Close this window</button>
+        </div>
+    </div>
+</div>
+
+<div class="team">
+    <p class="text">Amazing <span class="bold">Team</span></p>
+    <p class="text-fade">These wonderful people make work enjoyable.</p>
+    <div class="members">
+        <div class="person">
+            <div class="face"><img src="" alt=""></div>
+            <p class="person-name">Kimberly Thompson</p>
+            <p class="person-prof">Marketer</p>
+            <div class="icons">
+                <img class="icon" src="img/iconmonstr-twitter-5.svg" alt="twitter">
+                <img class="icon" src="img/iconmonstr-facebook-5.svg" alt="fb">
+                <img class="icon" src="img/pinterest-social-visual-website-logotype.svg" alt="pinterest">
+            </div>
+        </div>
+
+        <div class="person">
+            <div class="face"><img src="" alt=""></div>
+            <p class="person-name">Rico Massimo</p>
+            <p class="person-prof">Coder</p>
+            <div class="icons">
+                <img class="icon" src="img/iconmonstr-twitter-5.svg" alt="">
+                <img class="icon" src="img/iconmonstr-facebook-5.svg" alt="">
+                <img class="icon" src="img/google-plus-circular-button.svg" alt="">
+            </div>
+        </div>
+
+        <div class="person">
+            <div class="face"><img src="" alt=""></div>
+            <p class="person-name">Uku Mason</p>
+            <p class="person-prof">Graphic Designer</p>
+            <div class="icons icons2">
+                <img class="icon" src="img/iconmonstr-facebook-5.svg" alt="">
+                <img class="icon" src="img/pinterest-social-visual-website-logotype.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <p class="text2">Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
+        aenean rhoncus posuere odio in tincidunt proin iaculis.</p>
+</div>
+
+<div class="feedback">
+    <div class="flex">
+        <p class="feedback-text">Say <span class="bold">Hello</span></p>
+        <p class="text3">Don’t be shy, drop us an email and say hello! We are a really nice
+            bunch of people :)</p>
+
+        <div class="flex-block">
+            <div class="block1">
+                <div class="block2">
+                    <img class="contact-icons" src="img/smartphone-3.svg" alt="">
+                    <p class="contacts">(416) 555-0000</p>
+                </div>
+                <div class="block2">
+                    <img class="contact-icons" src="img/twitter-black-shape.svg" alt="">
+                    <p class="contacts">@escape</p>
+                </div>
+                <div class="block2">
+                    <img class="contact-icons" src="img/iconfinder_40-google-plus_104464.svg" alt="">
+                    <p class="contacts">plus.com/escape</p>
+                </div>
+            </div>
+
+            <div class="block1">
+                <div class="block2">
+                    <img class="contact-icons" src="img/iconfinder_Artboard_1_3915315.svg" alt="">
+                    <p class="contacts">hello@escape.com</p>
+                </div>
+                <div class="block2">
+                    <img class="contact-icons" src="img/iconfinder_06-facebook_104498.svg" alt="">
+                    <p class="contacts">facebook.com/escape</p>
+                </div>
+                <div class="block2">
+                    <img class="contact-icons" src="img/iconfinder_social-pinterest_216396.svg" alt="">
+                    <p class="contacts">pinterest.com/escape</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex">
+        <form class="former" action="/ajax.php?act=test_post" method="POST">
+            <p><input class="form" type="text" placeholder="Your Name*" name="Name" required></p>
+            <p data-validation="e-mail *"><input class="form validation" type="email" name="email"
+                                                 placeholder="Your E-mail*" required></p>
+            <p><textarea class="textarea" name="" id="" cols="21" rows="5" placeholder="Your Message*"></textarea></p>
+        </form>
+    </div>
+
+</div>
+<footer class="footer">
+    <p class="footer-text">&copy; 2014 Escape by FreebiesXpress Made In Toronto</p>
+</footer>
+
+<script src="js/index.js"></script>
+</body>
+</html>
